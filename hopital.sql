@@ -41,6 +41,9 @@ CREATE TABLE `tbl_medicament` (
 INSERT INTO `tbl_medicament` (`code_medicament`, `designation`, `description`, `prix`) VALUES
 (1, 'ASPIRINE', 'Traite la tete', 1000);
 
+INSERT INTO `tbl_medicament`(`code_medicament`, `designation`, `description`, `prix`) VALUES
+(2, 'PARACETAMOL', 'Traite la tete', 1000);
+
 -- --------------------------------------------------------
 
 --
