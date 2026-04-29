@@ -3,7 +3,7 @@ include "../core/Controller.php";
 include "../core/Model.php";
 include "../app/controllers/MedicamentController.php";
 include "../app/models/Medicament.php";
-
+//vue du code pour ajouter un contrôleur au medicament
 $medicament = new MedicamentController();
 
 $page = $_GET['page'];
